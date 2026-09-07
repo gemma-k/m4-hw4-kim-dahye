@@ -1,0 +1,146 @@
+/* Page */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    background-color: lightgray;
+    background-image: url("geometry2.png");
+    
+    /* Flex container #1 */
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Header */
+header {
+    background-color: white;
+    border-bottom: 2px solid grey;
+}
+
+.header-content {
+    width: 960px;
+    margin: 0 auto;
+    
+    /* Flex container #2 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 25px;
+    background-color:blueviolet;
+    color:white;
+}
+
+nav {
+    /* Flex container #3 */
+    display: flex;
+    padding: 30px 0;
+
+}
+
+nav a {
+    color: grey;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+/* Main Content */
+main {
+    width: 960px;
+    margin: 40px auto;
+
+    /* Flex container #4 */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* About Me */
+.about {
+    width: 630px;
+    padding: 25px;
+    background-color: white;
+}
+
+.about h2 {
+    color: blueviolet;
+    border-bottom: 2px solid grey;
+    padding-bottom: 15px
+}
+
+.about img {
+    /* Float used only here */
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    line-height: 1.5;
+}
+
+.about h3 {
+    clear: both;
+    color: blueviolet;
+    padding-top: 20px;
+}
+    
+/* My Work */
+.my-work {
+    /* Flex container #5 */
+    display: flex;
+    padding: 3px;
+    
+}
+
+.my-work a {
+    color: grey;
+    padding: 10px;
+    margin: 0;
+}
+
+/* Sidebar */
+aside {
+    width: 150px;
+    padding: 10px;
+    background-color: white;
+} 
+
+aside h2 {
+    color: blueviolet;
+    border-bottom: 2px solid grey; 
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+/* Social Links */
+.social-links {
+    /* Flex container #6 */
+    display: flex;
+    gap:10px;
+}
+
+aside a {
+    display: inline-block;
+}
+
+aside img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    padding: 25px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
